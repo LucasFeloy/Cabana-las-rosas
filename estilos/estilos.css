@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #ffae9b;
+}
+
+header{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.logoCabana{
+    width:425px ;
+    height: 225px;
+  
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #ffe8c0;
+}
+
+
+
+.menu li{
+    display: inline-block;
+    font-family: 'league spartan';
+    font-size: 3rem;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+  
+  }
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color:#7d0067;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color:#01097c;
+}
+
+/*index*/
+
+
+.principal {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding:25px;
+    justify-content: space-evenly;
+}
+
+.descripcion{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.descripcion p{ 
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 100%;
+    padding: 30px;
+    font-size: 2.8rem;
+    color: #373d46;
+    text-align:center;
+    font-style: italic;
+    font-family: 'el nautigal';
+    justify-content: center;
+    
+      }
+
+.imagenIndex1{
+    width: 100%;
+    height: 100%;
+} 
+.imagenIndex2{
+    width: 100%;
+    height: 100%;
+}    
+.imagenIndex3{
+    width: 100%;
+    height: 100%;}
+
+.imagenIndex4{
+    width: 100%;
+    height: 100%;
+}
+    
+.imagenesDescripcion{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 3fr 3fr;
+    
+    justify-content: space-evenly;
+    grid-row-gap:15px;
+    grid-column-gap: 15px;
+}
+
+
+
+    
+
+ 
+    
+
+/*servicios*/
+
+.principalServicios{
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+    
+   
+}
+.serviciosCabanas{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.imgServ{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 30px 0px 15px 0px;
+}
+
+.imagenServicios1{
+    width: 45%;
+    height: 45%;
+    
+}
+.imagenServicios2{
+    width: 45%;
+    height: 45%;
+    
+}
+.imagenServicios3{
+    width: 45%;
+    height: 45%;
+    
+    
+    
+}
+.servicios {
+    font-family: 'el nautigal';
+    font-size: 2.6rem;
+    color:#373d46;
+
+
+}
+.servicios ul li{
+    margin:0px 0px 0px 40px;
+    list-style-type:circle;
+    font-style: italic;
+
+}
+.cabanas p{
+    margin:0px 0px 0px 25px;
+    font-style: italic;
+}
+
+.cabanas{
+    font-family: 'el nautigal';
+    font-size: 2.6rem;
+    color: #373d46;
+    margin:25px 0px 25px 0px;
+}
+.servicios h4{
+    color: #01097c;
+    text-decoration: underline;
+    margin:25px 0px 25px 25px;
+    font-weight: 600;
+}
+.cabanas h4{
+    color: #01097c;
+    text-decoration: underline;
+    margin:25px 0px 25px 25px;
+    font-weight: 600;
+
+}
+/*.imagenServicios{
+    height: 700px;
+    width:1000px;
+    margin:25px;
+}*/
+
+/*galeria*/
+
+.imagCabana11{
+    width: 60%;
+    height: 20%;
+    padding: 15px 0px 15px 0px;
+}
+.imagCabana12{
+    width: 60%;
+    height: 20%;
+}
+.imagCabana13{
+    width: 60%;
+    height: 20%;
+    padding: 15px 0px 20px 0px;
+}
+
+
+.imagCabana21{
+    width: 60%;
+    height: 20%;
+    padding: 15px 0px 15px 0px;
+}
+.imagCabana22{
+    width: 60%;
+    height: 20%;
+}
+.imagCabana23{
+    width: 60%;
+    height: 20%;
+    padding: 15px 0px 20px 0px;
+
+}
+
+.galeriaFotos{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    
+
+}
+.columnaCabana1 h1{
+    font-family: 'el nautigal';
+    font-size: 2.6rem;
+    color:#373d46;
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+    
+}
+
+.columnaCabana2 h1{
+    font-family: 'el nautigal';
+    font-size: 2.6rem;
+    color:#373d46;
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+}
+.columnaCabana1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+.columnaCabana2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+/*ubicacion*/
+
+.ubicacion{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textoUbicacion{
+    
+    font-family:'el nautigal';
+    font-size: 2.6rem;
+    color: #373d46;
+    font-style: italic;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iframe{
+    margin: 20px 5px 20px 0px;
+    border-top:solid 2px #373d46;
+    border-right:solid 2px #373d46;
+    border-bottom:solid 2px #373d46;
+    border-left:solid 2px #373d46;
+}
+
+/*contacto*/
+
+.contacto1 p{
+
+    font-family: 'el nautigal';
+    font-size: 2.6rem;
+    color: #373d46;
+    padding: 30px 0px 30px 0px;
+    font-style: italic;
+    text-align: center;
+}
+.contacto2 p{
+
+    font-family: 'el nautigal';
+    font-size: 2rem;
+    color: #373d46;
+    
+    font-style: italic;
+    margin:15px;
+}
+
+.contacto1 label{
+   
+    font-family: 'el nautigal';
+    font-size: 2rem;
+    font-style: italic;
+    color: #373d46;
+    
+    margin: 15px;
+}
+
+.contacto1 input{
+    margin:5px;
+}
+.contactoNombre input{
+    margin:15px 0px 15px 15px;
+}
+.contactoMail input{
+    margin:15px 0px 15px 15px;
+}
+
+.contactoConsulta textarea{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.contactoConsulta input{
+    margin-left: 15px;
+}
+
+.contacto2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px 20px 0px;
+}
+.formOpinion{
+    padding-left: 15px;
+}
+
+
+
+
+/*footer*/
+
+.redes{
+    padding: 10px 0px 10px 10px;
+}
+
+.redes p{
+   
+   color: #7d0067;  
+   font-size: 2.5rem;
+   font-family: 'el nautigal';
+   font-weight: bold;
+   
+   
+}
+
+.redes p:hover{
+    text-decoration: underline;
+    color:#01097c;
+}
+.redes a{
+    text-decoration: none;
+}
+
+.redes img{
+    width:2%;
+    height:2%;
+    padding: 10px 0px 10px 0px;
+}
+footer{
+    background-color:#ffe8c0;
+    
+    
+   /* position: sticky;
+    bottom: 0px;
+    left:0px;
+    margin: 25px 0px 20px 0px;*/
+}
+
+
+
