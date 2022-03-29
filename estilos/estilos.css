@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-color: #ffae9b;
+    background-color: #ffae9b 
 }
 
 header{
@@ -46,6 +46,22 @@ nav{
     text-align: center;
     font-weight: bold;
     color:#7d0067;
+    animation-name: animacionMenu;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;
+
+}
+
+@keyframes animacionMenu{
+    0%{color: #7d0067}
+    20%{color:#373d46}
+    40%{color:cornflowerblue}
+    60%{color:green}
+    80%{color:aqua}
+    100%{color:blue}
+
 }
 .menu li a:hover{
     text-decoration: underline;
@@ -80,8 +96,18 @@ nav{
     font-style: italic;
     font-family: 'el nautigal';
     justify-content: center;
+    animation-name: textoDescripcion;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5S;
+    animation-delay: 2s;
+          }
+
+@keyframes textoDescripcion{
+    0%{font-weight: normal}
     
-      }
+    100%{font-weight: bold}
+}        
 
 .imagenIndex1{
     width: 100%;
@@ -291,7 +317,22 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-name: textoUbicacion;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;
 }
+
+@keyframes textoUbicacion{
+    0%{transform:translate(0%,0%)}
+    25%{transform:translate(0%,-25%)}
+    50%{transform:translate(0%,0%)}
+    75%{transform:translate(0%,25%)}
+    100%{transform: translate(0%,0%)}
+}
+
+
 .iframe{
     margin: 20px 5px 20px 0px;
     border-top:solid 2px #373d46;
@@ -336,10 +377,22 @@ nav{
 }
 .contactoNombre input{
     margin:15px 0px 15px 15px;
+    
+}
+.contactoNombre input:focus{
+font-weight: bold;
+color: chocolate;
+font-size: 2rem;
 }
 .contactoMail input{
     margin:15px 0px 15px 15px;
 }
+
+.contactoMail input:focus{
+    font-weight: bold;
+    color: chocolate;
+    font-size: 2rem;
+    }
 
 .contactoConsulta textarea{
     margin-left: 15px;
@@ -349,11 +402,23 @@ nav{
     margin-left: 15px;
 }
 
+.contactoConsulta textarea:focus{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+}
+
 .contacto2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px 0px 20px 0px;
+}
+
+.contacto2 textarea:focus{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
 }
 .formOpinion{
     padding-left: 15px;
@@ -392,7 +457,7 @@ nav{
     padding: 10px 0px 10px 0px;
 }
 footer{
-    background-color:#ffe8c0;
+    background:linear-gradient(to left,#ffffff,#ffe8c0)
     
     
    /* position: sticky;
