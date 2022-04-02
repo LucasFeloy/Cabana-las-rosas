@@ -18,10 +18,12 @@ header{
 }
 
 .logoCabana{
-    width:425px ;
-    height: 225px;
+    width:425px;
+    height:225px;
   
+
 }
+
 @media (max-width:500px){
     .logoCabana{
         width:212px;
@@ -305,7 +307,7 @@ nav{
 .displayGaleria{
     display: flex;
     flex-direction: row;
-    justify-content: ;
+    
 }
 
 .titulo{
