@@ -188,47 +188,42 @@ nav{
 .imagenServicios3{
     width: 45%;
     height: 45%;
-    
-    
-    
+   
 }
-.servicios {
-    font-family: 'el nautigal';
-    font-size: 2.6rem;
-    color:#373d46;
 
-
-}
 .servicios ul li{
     margin:0px 0px 0px 40px;
     list-style-type:circle;
     font-style: italic;
-
-}
-.cabanas p{
-    margin:0px 0px 0px 25px;
-    font-style: italic;
-}
-
-.cabanas{
     font-family: 'el nautigal';
     font-size: 2.6rem;
-    color: #373d46;
-    margin:25px 0px 25px 0px;
+    color:#373d46;
 }
+.cabanas p{
+    margin:25px 0px 25px 25px;
+    font-style: italic;
+    font-family: 'el nautigal';
+    font-size: 2.6rem;
+    color:#373d46;
+}
+
+
 .servicios h4{
+    font-family: 'el nautigal';
     color: #01097c;
     text-decoration: underline;
     margin:25px 0px 25px 25px;
     font-weight: 600;
 }
 .cabanas h4{
+    font-family: 'el nautigal';
     color: #01097c;
     text-decoration: underline;
     margin:25px 0px 25px 25px;
     font-weight: 600;
 
 }
+
 /*.imagenServicios{
     height: 700px;
     width:1000px;
