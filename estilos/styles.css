@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #ffae9b; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.logoCabana {
+  width: 425px;
+  height: 225px; }
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe8c0; }
+  nav .menu li {
+    display: inline-block;
+    font-family: 'league spartan';
+    font-size: 3rem;
+    padding: 10px;
+    margin: 20px 0px 20px 0px; }
+    nav .menu li a {
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      color: "$colorNav"; }
+      nav .menu li a:hover {
+        text-decoration: underline;
+        color: #01097c; }
+
+/*.menu li {}
+
+.menu li a {}
+
+@keyframes animacionMenu {
+    0% {
+        color: #7d0067
+    }
+
+    20% {
+        color: #373d46
+    }
+
+    40% {
+        color: cornflowerblue
+    }
+
+    60% {
+        color: green
+    }
+
+    80% {
+        color: aqua
+    }
+
+    100% {
+        color: blue
+    }
+
+}
+
+.menu li a:hover {}*/
+.redes {
+  padding: 10px 0px 10px 10px; }
+  .redes p {
+    color: "$colorNav";
+    font-size: 2.5rem;
+    font-family: 'el nautigal';
+    font-weight: bold; }
+    .redes p:hover {
+      text-decoration: underline;
+      color: #01097c; }
+
+.redes a {
+  text-decoration: none; }
+
+.redes img {
+  width: 2%;
+  height: 2%;
+  padding: 10px 0px 10px 0px; }
+
+footer {
+  background: linear-gradient(to left, #ffffff, #ffe8c0); }
+
+.principal {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  padding: 25px;
+  justify-content: space-evenly; }
+  .principal .descripcion {
+    display: grid;
+    justify-content: center;
+    align-content: center; }
+    .principal .descripcion p {
+      display: flex;
+      flex-direction: row;
+      width: 75%;
+      height: 100%;
+      padding: 30px;
+      font-size: 2.8rem;
+      color: #373d46;
+      text-align: center;
+      font-style: italic;
+      font-family: 'el nautigal';
+      justify-content: center; }
+
+/*.descripcion 
+    animation-name: textoDescripcion;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5S;
+    animation-delay: 2s;
+          }
+
+@keyframes textoDescripcion{
+    0%{font-weight: normal}
+    
+    100%{font-weight: bold}
+} */
+.imagenIndex1 {
+  width: 100%;
+  height: 100%; }
+
+.imagenIndex2 {
+  width: 100%;
+  height: 100%; }
+
+.imagenIndex3 {
+  width: 100%;
+  height: 100%; }
+
+.imagenIndex4 {
+  width: 100%;
+  height: 100%; }
+
+.imagenesDescripcion {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 3fr 3fr;
+  justify-content: space-evenly;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px; }
