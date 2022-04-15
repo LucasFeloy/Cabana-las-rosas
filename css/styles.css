@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #ffae9b; }
+
+.descripcion {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 100%;
+  padding: 30px; }
+
+.principal {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  padding: 25px;
+  justify-content: space-evenly; }
+
+.descripcion {
+  font-size: 2.8rem;
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+  color: #373d46;
+  font-family: 'el nautigal';
+  justify-content: center; }
+
+.imagenesDescripcion {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 3fr 3fr;
+  justify-content: space-evenly;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px; }
+  .imagenesDescripcion .imagenIndex1 {
+    width: 100%;
+    height: 100%; }
+  .imagenesDescripcion .imagenIndex2 {
+    width: 100%;
+    height: 100%; }
+  .imagenesDescripcion .imagenIndex3 {
+    width: 100%;
+    height: 100%; }
+  .imagenesDescripcion .imagenIndex4 {
+    width: 100%;
+    height: 100%; }
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #ffe8c0; }
+
+.menu li {
+  display: inline-block;
+  font-family: 'league spartan';
+  font-size: 3rem;
+  padding: 10px;
+  margin: 20px 0px 20px 0px; }
+  .menu li a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #7d0067; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.logoCabana {
+  width: 425px;
+  height: 225px; }
+
+footer {
+  background: linear-gradient(to left, #ffffff, #ffe8c0); }
+
+.redes {
+  padding: 10px 0px 10px 10px; }
+  .redes p {
+    color: #7d0067;
+    font-size: 2.5rem;
+    font-family: 'el nautigal';
+    font-weight: bold; }
+    .redes p:hover {
+      text-decoration: underline;
+      color: #01097c; }
+  .redes a {
+    text-decoration: none; }
+  .redes img {
+    width: 2%;
+    height: 2%;
+    padding: 10px 0px 10px 0px; }

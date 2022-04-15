@@ -25,7 +25,7 @@ header{
 
 
 
-nav{
+/*nav{
     display: flex;
     justify-content: center;
     background-color: #ffe8c0;
@@ -66,7 +66,7 @@ nav{
 .menu li a:hover{
     text-decoration: underline;
     color:#01097c;
-}
+}*/
 
 /*index*/
 
@@ -84,7 +84,7 @@ nav{
     align-content: center;
 }
 
-.descripcion p{ 
+/*.descripcion p{ 
     display: flex;
     flex-direction: row;
     width: 75%;
@@ -95,21 +95,21 @@ nav{
     text-align:center;
     font-style: italic;
     font-family: 'el nautigal';
-    justify-content: center;
-    animation-name: textoDescripcion;
+    justify-content: center;*/
+    /*animation-name: textoDescripcion;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 5S;
     animation-delay: 2s;
-          }
+          }*/
 
-@keyframes textoDescripcion{
+/*@keyframes textoDescripcion{
     0%{font-weight: normal}
     
     100%{font-weight: bold}
-}        
+}*/        
 
-.imagenIndex1{
+/*.imagenIndex1{
     width: 100%;
     height: 100%;
 } 
@@ -135,7 +135,7 @@ nav{
     grid-row-gap:15px;
     grid-column-gap: 15px;
 }
-
+*/
 
 
     

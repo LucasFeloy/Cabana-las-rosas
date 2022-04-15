@@ -1,0 +1,22 @@
+$parrafos: 
+    (decoracion: none,
+    alineacion: center,
+    negrita: italic,
+    color:#373d46,
+    rem:2.8rem,
+);
+
+%formatoParrafo{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 100%;
+    padding: 30px;
+}
+
+@mixin size ($width,$height){
+    width: $width;
+    height:$height;
+    
+}
+    

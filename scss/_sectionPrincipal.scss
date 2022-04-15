@@ -1,0 +1,44 @@
+.principal {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding:25px;
+    justify-content: space-evenly;
+}
+
+
+
+.descripcion{
+    font-size: map-get($parrafos,rem );
+    text-decoration: map-get($parrafos,decoracion );
+    text-align: map-get($parrafos, alineacion );
+    font-style: map-get($parrafos, negrita );
+    color:map-get($parrafos,color);
+    @extend %formatoParrafo;
+    font-family: 'el nautigal';
+    justify-content: center;
+}
+
+.imagenesDescripcion{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 3fr 3fr;
+    justify-content: space-evenly;
+    grid-row-gap:15px;
+    grid-column-gap: 15px;
+    .imagenIndex1{
+        @include size (100%,100%);
+
+    }
+    .imagenIndex2{
+        @include size (100%,100%);
+
+    }
+    .imagenIndex3{
+        @include size (100%,100%);
+
+    }
+    .imagenIndex4{
+        @include size (100%,100%);
+
+    }
+}
